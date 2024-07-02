@@ -3566,3 +3566,46 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+button.quick-add__submit.button.button--full-width.button--secondary {
+  position: absolute;
+  height: 36px;
+  width: 40px;
+  background: transparent;
+  padding: 0;
+
+}
+.index_no_1{
+  top: 15rem;
+  left: 23rem;
+}
+.index_no_2{
+  left: 30rem;
+  top: 13rem;
+}
+.index_no_3{
+  left: 24rem;
+  top: 5rem;
+}
+.index_no_4{
+  left: 26rem;
+  top: 4rem;
+}
+.index_no_5{
+  left: 20rem;
+  top: 6rem;
+}
+.index_no_6{
+  left: 27rem;
+  top: 8rem;
+}
+
+button.quick-add__submit.button.button--full-width.button--secondary svg{
+  width: 22px;;
+}
+button.quick-add__submit.button.button--full-width.button--secondary::after,
+button.quick-add__submit.button.button--full-width.button--secondary::before{
+  content: unset;
+}
+.card.card--standard.card--media {
+  position: relative;
+}

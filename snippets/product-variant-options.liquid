@@ -76,7 +76,7 @@
       help_text: help_text,
       additional_props: input_dataset
     %}
-  {%- elsif picker_type == 'button' -%}
+  {%- elsif option_name == 'Color' -%}
     <input
       type="radio"
       id="{{ input_id }}"
@@ -95,7 +95,7 @@
       {{ value -}}
       {{ label_unavailable }}
     </label>
-  {%- elsif picker_type == 'dropdown' or picker_type == 'swatch_dropdown' -%}
+  {%- elsif option_name == 'Size' or picker_type == 'swatch_dropdown' -%}
     <option
       id="{{ input_id }}"
       value="{{ value | escape }}"
