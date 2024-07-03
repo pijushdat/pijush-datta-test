@@ -458,9 +458,7 @@ content: unset;
   .banner__box > * + .banner__text {
     margin-top: 2rem;
   }
-  .banner--mobile-bottom .banner__box{
-    padding: 4rem 3.5rem 0rem 5rem;
-  }
+
 }
 
 .banner__box > * + * {
@@ -472,6 +470,9 @@ content: unset;
 }
 
 @media screen and (max-width: 749px) {
+  .banner--mobile-bottom .banner__box{
+    padding: 4rem 3.5rem 0rem 5rem;
+  }
   .banner--stacked .banner__box {
     width: 100%;
   }
