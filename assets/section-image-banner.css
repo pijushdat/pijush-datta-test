@@ -418,6 +418,12 @@ text-align: left;
   width: 100%;
   height: 100%;
 }
+.product__media.media.media--transparent {
+  height: 125px;
+}
+.product-form__submit {
+  margin-top: 30px;
+}
 .banner__content.banner__content--bottom-left a.button.button--primary {
   display: flex;
   gap: 30px;

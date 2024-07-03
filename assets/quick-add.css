@@ -78,6 +78,7 @@ quick-add-modal .product__info-wrapper variant-selects{
   left: -134px;
   width: 273px;
   display: flex;
+  top:20px;
   flex-direction: column-reverse;
 }
 quick-add-modal .product__info-wrapper .product-form__quantity{
