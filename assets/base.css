@@ -3614,8 +3614,19 @@ button.quick-add__submit.button.button--full-width.button--secondary::before{
 .card.card--standard.card--media {
   position: relative;
 }
-
+.rich-text__text.rte.scroll-trigger.animate--slide-in {
+  font-family: 'Jost';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 13.42px;
+  text-align: center;
+  
+}
 @media only screen and (max-width: 750px) {
+  .rich-text__text.rte.scroll-trigger.animate--slide-in {
+    font-size: 14px;
+    line-height: 13.42px;
+}
   .index_no_1{
     top: 0;
     left: 9rem;
