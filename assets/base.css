@@ -3628,7 +3628,18 @@ h2.title.inline-richtext.h1.scroll-trigger.animate--slide-in {
   line-height: 43.2px;
   text-align: left;
 }
-
+@media only screen and (max-width: 1165px) {
+  .index_no_2{
+    left: 23rem;
+    top: 10rem;
+  } 
+}
+@media only screen and (max-width: 861px) {
+  .index_no_2{
+    left: 15rem;
+    top: 5rem;
+  } 
+}
 
 @media only screen and (max-width: 750px) {
   .rich-text__text.rte.scroll-trigger.animate--slide-in {
