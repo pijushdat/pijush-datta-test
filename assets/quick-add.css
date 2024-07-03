@@ -91,7 +91,27 @@ display: none;
     max-height: calc(100% - var(--modal-height-offset) * 2);
     overflow-y: auto;
   }
-
+  .product-form__submit{
+    transition: .5s;
+  }
+  .product-form__submit span {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+.product-form__submit::after{
+  content:unset
+}
+.product-form__submit:hover {
+  background: #FFF544;
+  color:#000;
+}
+.product-form__submit:hover svg.white-arrow{
+  display: none;
+} 
+.product-form__submit:hover svg.black-arrow{
+  display: block;
+} 
   quick-add-modal .product__title,  quick-add-modal .product__info-container .product-form {
     margin: 0;
   }
