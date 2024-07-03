@@ -465,6 +465,17 @@ content: unset;
   .banner--stacked .banner__box {
     width: 100%;
   }
+  .for_mobile_view {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    z-index: 99;
+    padding-top: 70%;
+}
 }
 
 @media screen and (min-width: 750px) {
