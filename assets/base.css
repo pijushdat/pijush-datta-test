@@ -3620,12 +3620,27 @@ button.quick-add__submit.button.button--full-width.button--secondary::before{
   font-weight: 400;
   line-height: 13.42px;
   text-align: center;
-  
 }
+h2.title.inline-richtext.h1.scroll-trigger.animate--slide-in {
+  font-family: 'Lustria';
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  text-align: left;
+}
+
+
 @media only screen and (max-width: 750px) {
   .rich-text__text.rte.scroll-trigger.animate--slide-in {
     font-size: 14px;
     line-height: 13.42px;
+}
+h2.title.inline-richtext.h1.scroll-trigger.animate--slide-in {
+  text-align: center;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.8px;
+
 }
   .index_no_1{
     top: 0;
