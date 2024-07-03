@@ -84,10 +84,16 @@ quick-add-modal .product__info-wrapper variant-selects{
   top:20px;
   flex-direction: column-reverse;
 }
-.product-form__input--pill input[type=radio]+label:before {
+/* .product-form__input--pill input[type=radio]+label:last-child::before  {
   width: 4px;
   z-index: 99;
+  background-color: #fff;
 }
+.product-form__input--pill input[type=radio]+label:first-child::before {
+  background-color: #000;
+  z-index: 99 !important;
+  width: 4px !important;
+} */
 quick-add-modal .product__info-wrapper .product-form__quantity{
 display: none;
 }

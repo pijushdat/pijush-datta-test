@@ -48,6 +48,28 @@
         "show_text_below": true
       }
     },
+    "rich_text_yMMNiJ": {
+      "type": "rich-text",
+      "blocks": {
+        "text_pNXFtK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SUSTAINABLE, ETHICALLY MADE ACTIVEWEAR<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_pNXFtK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -79,6 +101,7 @@
   },
   "order": [
     "image_banner",
+    "rich_text_yMMNiJ",
     "featured_collection"
   ]
 }
