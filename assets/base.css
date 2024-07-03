@@ -75,7 +75,12 @@
 }
 
 /* base */
-
+body{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
 .page-width {
   max-width: var(--page-width);
   margin: 0 auto;
@@ -3608,4 +3613,31 @@ button.quick-add__submit.button.button--full-width.button--secondary::before{
 }
 .card.card--standard.card--media {
   position: relative;
+}
+
+@media only screen and (max-width: 750px) {
+  .index_no_1{
+    top: 0;
+    left: 9rem;
+  }
+  .index_no_2{
+    left: 9rem;
+    top: 0rem;
+  }
+  .index_no_3{
+    left: 9rem;
+    top: 0rem;
+  }
+  .index_no_4{
+    left: 9rem;
+    top: 0rem;
+  }
+  .index_no_5{
+    left: 9rem;
+    top: 0rem;
+  }
+  .index_no_6{
+    left: 9rem;
+    top: 0rem;
+  }
 }
