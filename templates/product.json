@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "main": {
@@ -17,16 +8,16 @@
           "settings": {
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
             "text": "This one-piece swimsuit is crafted from jersey featuring an allover micro Monogram motif in relief.",
             "text_style": "subtitle"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
           }
         },
         "variant_picker": {
@@ -63,8 +54,8 @@
       },
       "block_order": [
         "title",
-        "vendor",
         "price",
+        "vendor",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",

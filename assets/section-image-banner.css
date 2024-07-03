@@ -142,13 +142,39 @@
     justify-content: flex-end;
   }
 }
-
+.banner__text.rte.body p{
+  font-family: 'Jost';
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+}
+h2.banner__heading.inline-richtext.h0{
+  font-family: 'Jost';
+font-size: 70px;
+font-weight: 500;
+line-height: 70px;
+text-align: left;
+}
 @media screen and (max-width: 749px) {
   .banner:not(.banner--stacked) {
-    flex-direction: row;
+    flex-direction: column-reverse;
     flex-wrap: wrap;
   }
-
+  h2.banner__heading.inline-richtext.h0{
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .banner__text.rte.body p{
+  font-size: 16px;
+  line-height: 20.8px;
+  text-align: center;
+  }
+  .banner__text.rte.body p span{display:none}
+  .banner__box>*+.banner__buttons{
+    display: none;
+  }
   .banner--stacked {
     height: auto;
   }
@@ -277,9 +303,7 @@
 }
 
 @media screen and (min-width: 750px) {
-  .banner__content {
-    padding: 5rem;
-  }
+
 
   .banner__content--top-left {
     align-items: flex-start;
@@ -350,7 +374,7 @@
 }
 
 .banner--mobile-bottom .banner__box {
-  padding: 4rem 3.5rem;
+  padding:4rem 3.5rem 4rem 5rem;
 }
 
 @media screen and (min-width: 750px) {
@@ -394,6 +418,30 @@
   width: 100%;
   height: 100%;
 }
+.banner__content.banner__content--bottom-left a.button.button--primary {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  transition: background-color 0.5s ease;
+}
+svg.black-arrow {
+  display: none;
+}
+.banner__content.banner__content--bottom-left a.button.button--primary:hover{
+  background-color:#FFF544;
+  color: #000000;
+  transition: 0.2s 0.1s; 
+}
+.banner__content.banner__content--bottom-left a.button.button--primary::after{
+content: unset;
+}
+.banner__content.banner__content--bottom-left a.button.button--primary:hover svg.black-arrow {
+  display: block;
+}
+.banner__content.banner__content--bottom-left a.button.button--primary:hover svg.white-arrow {
+  display: none;
+}
+
 
 .banner__box > * + .banner__text {
   margin-top: 1.5rem;
@@ -422,14 +470,14 @@
 @media screen and (min-width: 750px) {
   .banner__box {
     width: auto;
-    max-width: 71rem;
-    min-width: 45rem;
+    max-width: 550px;
+    min-width: auto;
   }
 }
 
 @media screen and (min-width: 1400px) {
   .banner__box {
-    max-width: 90rem;
+    max-width: 555px;
   }
 }
 
