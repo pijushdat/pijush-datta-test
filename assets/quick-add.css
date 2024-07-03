@@ -75,6 +75,7 @@ quick-add-modal .product:not(.featured-product) .product__view-details{
 }
 quick-add-modal .product-form__input--pill input[type=radio]+label{
   border-radius: unset !important;
+  transition: 1s;
 }
 quick-add-modal .product__info-wrapper variant-selects{
   position: relative;
@@ -112,6 +113,7 @@ display: none;
     display: flex;
     align-items: center;
     gap: 19px;
+    text-transform: uppercase;
 }
 .product-form__submit::after{
   content:unset
