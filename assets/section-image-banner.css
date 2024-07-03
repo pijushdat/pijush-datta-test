@@ -460,7 +460,9 @@ content: unset;
 .banner__box > *:first-child {
   margin-top: 0;
 }
-
+.for_mobile_view{
+  display:none;
+}
 @media screen and (max-width: 749px) {
   .banner--stacked .banner__box {
     width: 100%;
