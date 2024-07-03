@@ -495,6 +495,9 @@ content: unset;
     max-width: 550px;
     min-width: auto;
   }
+  .product__media.media.media--transparent{
+    height: auto;
+  }
 }
 
 @media screen and (min-width: 1400px) {
