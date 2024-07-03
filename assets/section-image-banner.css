@@ -458,8 +458,8 @@ content: unset;
   .banner__box > * + .banner__text {
     margin-top: 2rem;
   }
-  .for_mobile_view{
-    display:none !important;
+  .banner--mobile-bottom .banner__box{
+    padding: 4rem 3.5rem 0rem 5rem;
   }
 }
 
