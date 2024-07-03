@@ -173,7 +173,8 @@ text-align: left;
   }
   .banner__text.rte.body p span{display:none}
   .banner__box>*+.banner__buttons{
-    display: none;
+    position: relative;
+    top: 349px;
   }
   .banner--stacked {
     height: auto;
