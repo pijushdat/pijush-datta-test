@@ -495,9 +495,7 @@ content: unset;
     max-width: 550px;
     min-width: auto;
   }
-  .product__media.media.media--transparent{
-    height: auto;
-  }
+
 }
 
 @media screen and (min-width: 1400px) {
@@ -526,7 +524,9 @@ content: unset;
   .banner--content-align-mobile-right .banner__buttons--multiple {
     justify-content: flex-end;
   }
-
+  .product__media.media.media--transparent{
+    height: auto;
+  }
   .banner--content-align-mobile-center .banner__buttons--multiple > * {
     flex-grow: 1;
     min-width: 22rem;
