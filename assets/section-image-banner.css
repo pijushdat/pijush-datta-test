@@ -492,7 +492,7 @@ content: unset;
 @media screen and (min-width: 750px) {
   .banner__box {
     width: auto;
-    max-width: 550px;
+    max-width: 555px;
     min-width: auto;
   }
 
